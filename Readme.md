@@ -2,6 +2,7 @@
 NodeJs Server using Express framework deployed on firebase CloudFunctions
 
 ## Setup
+- `cd` into functions folder before running the following commands. All commands should be run in functions folder <br/>
 - Ensure you have firebase tools installed <br/>
 `npm install -g firebase-tools`<br/>
 - Install all dependencies using<br/>
