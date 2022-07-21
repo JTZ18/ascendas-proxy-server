@@ -1,5 +1,7 @@
 # Ascendas Hotels Proxy server
-NodeJs Server using Express framework deployed on firebase CloudFunctions
+NodeJs Server using Express framework deployed on firebase CloudFunctions <br/>
+The purpose of this proxy server is to mimic the behavior of the official ascendas api endpoint: https://hotelapi.loyalty.dev/api/ <br/>
+Since the endpoint cannot be called directly on the frontend due to CORS error, we have made our own proxy server to call the official api endpoint and poll if necessary to wait for search results, before returning request results back to the front end. This service serves as a middle man between react app and official ascendas api endpoint
 
 ## Setup
 - `cd` into functions folder before running the following commands. All commands should be run in functions folder <br/>
